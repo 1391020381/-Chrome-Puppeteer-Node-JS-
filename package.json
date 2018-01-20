@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "supervisor --harmony index.js",
+    "start": "node index.js",
+    "scrape": "node scrape.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/1391020381/node-crawler/issues"
   },
-  "homepage": "https://github.com/1391020381/node-crawler#readme"
+  "homepage": "https://github.com/1391020381/node-crawler#readme",
+  "dependencies": {
+    "puppeteer": "^1.0.0"
+  }
 }
