@@ -6,7 +6,7 @@ let scrape = async () => {
   await page.goto('http://books.toscrape.com/')
   // await page.click('#default > div > div > div > div > section > div:nth-child(2) > ol > li:nth-child(1) > article > div.image_container > a > img');
   await page.waitFor(1000)
-  const result = await page.evaluate(() => {
+  const result = await page.evaluate(() => {  // page.evaluate()方法可以用来执行浏览器内置DOM API
     let data = []; // 创建一个数组保存结果
     let elements = document.querySelectorAll('.product_pod'); // 选择所有书籍
     console.log('elements:', elements)
