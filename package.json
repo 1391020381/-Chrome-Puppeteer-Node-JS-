@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "supervisor --harmony index.js",
-    "start": "node index.js",
-    "scrape": "node scrape.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
