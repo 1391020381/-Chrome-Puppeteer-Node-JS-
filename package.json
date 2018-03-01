@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "node test.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/1391020381/node-crawler.git"
@@ -17,6 +15,7 @@
   },
   "homepage": "https://github.com/1391020381/node-crawler#readme",
   "dependencies": {
+    "koa": "^2.5.0",
     "puppeteer": "^1.0.0"
   }
 }
