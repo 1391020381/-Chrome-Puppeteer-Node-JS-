@@ -24,4 +24,12 @@
   const service = new Koa()
   service.use((router.routes(), router.allowedMethods()))
   ```
+  # koa获取参数
+  1. 获取类似的 req.params的参数
+    * req.params  另一种方法传参数给服务器,但是这不算是传统标准的做法,是属于 HTTP Routing的延伸应用
+    * req.params：解析URL中占位符,如/:name,访问/haha ,req.params的值为{name:'haha'}
+    
+    在koa中就是 ctx.params.postId
+  2. 获取query的参数
+     * ctx.query  
  
