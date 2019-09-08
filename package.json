@@ -1,7 +1,7 @@
 {
   "name": "crawler",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js爬虫开发全网内容抓取平台",
   "main": "index.js",
   "scripts": {},
   "repository": {
@@ -15,10 +15,6 @@
   },
   "homepage": "https://github.com/1391020381/node-crawler#readme",
   "dependencies": {
-    "axios": "^0.18.0",
-    "koa": "^2.5.0",
-    "koa-router": "^7.4.0",
-    "nunjucks": "^3.1.2",
-    "puppeteer": "^1.0.0"
+    
   }
 }
